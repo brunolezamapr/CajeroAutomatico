@@ -105,14 +105,14 @@ else:
             
             case 2: 
                 monto_deposito = float(input("Ingresa el monto a depositar: "))
-                operacion_deposito = "Deposito"
+                operacion_tipo = "Deposito"
                 if monto_deposito <= 0:
                     print("El monto es menor o igual que 0")
                 else:
                     saldo_actual = saldo + monto_deposito
                     print("Deposito exitoso")
                     print("---- COMPROBANTE ----")
-                    print(f"Tipo de operacion: {operacion_deposito}")
+                    print(f"Tipo de operacion: {operacion_tipo}")
                     print(f"Saldo actual: {saldo_actual}")
 
             case 3: 
